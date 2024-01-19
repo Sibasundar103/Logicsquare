@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .dashboard {
+    display: flex;
+  }
+  
+  .overview {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .employee-list {
+    flex: 2;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+  }

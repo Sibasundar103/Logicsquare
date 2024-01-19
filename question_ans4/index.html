@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resource Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="dashboard">
+    <div class="overview">
+      <h2>Overview</h2>
+      <p>Total Employees: <span id="totalEmployees">0</span></p>
+      <p>Available Employees: <span id="availableEmployees">0</span></p>
+    </div>
+    <div class="employee-list" id="employeeList">
+      <!-- Employee list will be dynamically populated here -->
+    </div>
+  </div>
+
+  <button onclick="openAddEmployeeModal()">Add Employee</button>
+
+  <div class="modal" id="addEmployeeModal">
+    <!-- Modal content for adding employee will be here -->
+  </div>
